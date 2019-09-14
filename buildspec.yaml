@@ -10,6 +10,6 @@ phases:
     commands:
       #- pytest
 artifacts:
+  type: zip
   files:
     - '**/*'
-  base-directory: movies
