@@ -6,7 +6,7 @@ phases:
   build:
     commands:
       - pytest
-  artifacts:
-    files:
-      - '**/*'
-    base-directory: movies
+artifacts:
+  files:
+    - '**/*'
+  base-directory: movies
