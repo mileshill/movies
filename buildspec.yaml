@@ -5,7 +5,7 @@ phases:
       python: 3.7
   pre_build:
     commands:
-      - pip3 install -r requirements.txt
+      - pip3 install -r requirements.txt -t .
   build:
     commands:
       #- pytest
